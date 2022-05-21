@@ -1,0 +1,109 @@
+body{
+    background: black;
+    /* background: wheat; */
+}
+
+.container{
+    display: flex;
+	flex-direction: column;
+	width: 270px;
+	background-color: rgb(37, 37, 37);
+	padding: 15px;
+	border-radius: 30px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.header{
+    background-color: orange;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: Arial;
+    padding: 10px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+input{
+    height: 80px;
+	width: 270px;
+	background-color: rgb(68, 68, 68);
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	font-size: 50px;
+	border-radius: 10px;
+	margin-bottom: 25px;
+	margin-top: 10px;
+
+}
+
+table{
+    width: 100%;
+    text-align: center;
+}
+
+td{
+    width: 25%;
+}
+
+td button {
+	border-style: none;
+	color: white;
+	font-size: 30px;
+	transition: 0.4s;
+}
+
+
+.digits {
+    border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	background-color: rgb(68, 68, 68);
+}
+.digits:hover {
+	background-color: rgb(154, 154, 154);
+}
+
+#operator{
+    border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	background-color: orange;
+	color: white;
+}
+#operator:hover {
+	background-color: rgb(255, 255, 255);
+	color: orange;
+}
+.operator{
+    border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	background-color: orange;
+	color: white;
+}
+.operator:hover {
+	background-color: rgb(255, 255, 255);
+	color: orange;
+}
+
+#clear{
+    border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	background-color: red ;
+	color: white;
+}
+#clear:hover {
+    border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	background-color: orange;
+	color: white;
+}
+

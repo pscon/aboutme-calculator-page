@@ -1,0 +1,131 @@
+body{
+    background-color: #0f0f0f;
+}
+.registercontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "Open Sans", sans-serif;
+}
+.container{
+    background-color: white;
+    border-radius: 5px;
+    width: 400px;
+    max-width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+
+}
+.header{
+    background-color: #f7f7f7;
+    padding: 20px 20px;
+    border-bottom: 1-x solid #f0f0f0;
+}
+.header h2{
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: orange;
+}
+.form{
+padding: 30px 40px;
+}
+.form-control{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control input{
+    width: 90%;
+    border: 2px solid #f0f0f0;
+    height: 50%;
+    font-family: inherit;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 10px;
+}
+.form-control input:focus{
+    outline: 0;
+    border-color: #777;
+}
+
+select{
+    width: 100%;
+    border: 2px solid #f0f0f0;
+    height: 50%;
+    font-family: inherit;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+button{
+    background: orange;
+    border: 2px solid orange;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease all;
+}
+
+ button:hover{
+   
+    background: #fff;
+    color: #ff7200;
+
+}
+
+.form button a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
+.form button a:hover{
+    text-decoration: none;
+    color: orange;
+ 
+}
+/* 
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.btnn a:hover{
+    text-decoration: none;
+    color: #ff7200;
+    font-weight: bold;
+}
+
+ */
