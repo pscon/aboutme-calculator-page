@@ -3,11 +3,13 @@
     padding: 0;
 
 }
-
+a{
+    text-decoration: none;
+}
 .main{
     width: 100%;
     background-position: center;
-    height: 100vh;
+    height: 120vh;
     background-size: cover;
     background: url(https://www.wallpaperbetter.com/wallpaper/833/400/921/blue-tree-moon-night-reflection-hd-1080P-wallpaper.jpg) ;
 }
@@ -123,4 +125,85 @@ width: 330px;
 
     font-family: Arial;
     color: white;
+}
+
+#footer_logo{
+    color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -mon-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -mon-text-fill-color: transparent;
+}
+
+.footer_links {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_link_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 16px;
+    text-align: left;
+    width: 160px;
+    box-sizing: border-box;
+
+}
+
+.footer_link_items h2 {
+margin-bottom: 16px;
+color: white;
+}
+
+.footer_link_items a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer_link_items a:hover {
+    color: white;
+    transition: 0.3 ease-out;
+}
+
+.social_icon_link{
+    color: black;
+    font-size: 24px;
+}
+
+footer{
+    background-color:orange ;
+    height: 100%;
+}
+.social_media{
+    max-width: 1000px;
+    width: 100%;
+  
+}
+
+.social_media_wrap{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 40px auto 0 auto;
+    align-items: center;
+max-width: 1000px;
+}
+
+.social_icons {
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+    align-items: center;
 }
